@@ -1,0 +1,27 @@
+/* mobile.css - Styles for mobile devices (max-width: 768px) */
+nav ul li {
+    display: block;
+    margin: 10px 0;
+}
+
+.profile-container {
+    text-align: center;
+}
+
+.profile-img {
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 1rem;
+}
+
+.intro-video {
+    width: 100%;
+}
+
+section {
+    padding: 0 15px;
+}
+
+.gradient-bg {
+    padding: 2rem 15px;
+}

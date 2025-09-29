@@ -1,0 +1,30 @@
+/* laptop.css - Styles for laptop/desktop devices (min-width: 1025px) */
+.profile-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.profile-img {
+    flex: 0 0 300px;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.intro-video {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+#projects-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.project {
+    margin-bottom: 0;
+}
